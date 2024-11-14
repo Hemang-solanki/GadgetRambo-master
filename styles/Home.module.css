@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bg);
+}
+.main > div {
+  margin: 0 1rem;
+}
+.left_sideBar {
+  padding: 1rem;
+  width: 100%;
+  background: var(--color-bg-light);
+}
+.mainContainer {
+  width: 60%;
+}
+.mainContainer > div {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: white;
+}
+.mainContainer > div > p {
+  font-size: 22px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.productFinderContent {
+  background-color: #eae8e8;
+  padding-bottom: 1rem;
+}
+.productFinderContent > p {
+  padding: 1rem 1rem 0 1rem;
+  font-size: 17px;
+}
+.popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

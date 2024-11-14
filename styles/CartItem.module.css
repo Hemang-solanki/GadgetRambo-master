@@ -1,0 +1,112 @@
+.subitem{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    vertical-align: auto;
+}
+.item{
+    background-color: white;
+}
+.subitemText{
+    width: 30%;
+    text-align: "center";
+    margin: auto;
+}
+.quantityInner{
+    display: flex;
+    justify-content: center;
+}
+.quantity{
+    padding-top: 0;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+.remove{
+    width: 10%;
+    text-align: center;
+    padding-top: 0;
+    margin: auto;
+}
+.price{
+    display: none;
+}
+.lastPrice{
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.quantityDesc{
+    display: none;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.image{
+    width: 10%;
+    margin: auto;
+    text-align: center;
+}
+@media only screen and (max-width: 784px) {
+    .quantityInner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+    .quantityInnerButton{
+        width: 40%;
+        margin: auto;
+    }
+    .price{
+        font-weight: 700;
+        display: block;
+    }
+    .quantity{
+        padding-top: 0;
+        width: 20%;
+    }
+    .quantityInner{
+        margin: auto;
+    }
+    .remove{
+        width: 10%;
+        text-align: center;
+        padding-top: 0;
+        margin: auto;
+    }
+    .lastPrice{
+        display: none;
+    }
+}
+@media only screen and (max-width: 691px) {
+    .quantityDesc{
+        display: none;
+        display: flex;
+    }
+    .quantityInnerButton{
+        width: 25%;
+        margin: auto;
+    }
+    .quantity{
+        display: none;
+    }
+    .name{
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+    .subitemText{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+    .remove{
+        width: 100%;
+    }
+}
